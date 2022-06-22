@@ -1,19 +1,23 @@
-const num1 = window.prompt("Enter First Number: ");
-const num2 = window.prompt("Enter Second Number");
-const opOperator = window.prompt("Enter operator");
+const num1 = parseInt(window.prompt("Enter First Number: "));
+const num2 = parseInt(window.prompt("Enter Second Number: "));
+const opOperator = window.prompt("Enter operator: ");
 
 if (opOperator == "*"){
-    console.log(num1 * num2);
+    const product = num1 * num2;
+    alert("The product of " + num1 + " and " + num2 + " is: " + product);
 }
 else if (opOperator == "+"){
-    console.log(num1 + num2);
+    const sumOf = num1 + num2;
+    alert("The sum of " + num1 + " and " + num2 + " is: " + sumOf);
 }
 else if (opOperator == "-"){
-    console.log(num1 - num2);
+    const difference = num1 - num2;
+    alert("The difference of " + num1 + " and " + num2 + " is: " + difference);
 }
 else if (opOperator == "/"){
-    console.log(num1 / num2)
+    const quotient = num1 / num2;
+    alert("The quotient of " + num1 + " and " + num2 + " is: " + quotient);
 }
 else{
-    console.log("Invalid Operator")
+    alert("Invalid Operator")
 }
