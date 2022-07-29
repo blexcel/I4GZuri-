@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    font-size: 15px;
+}
+
+main{
+    display: flex;
+    width: 50%;
+    height: 50vh;
+    margin: 150px auto;
+}
+
+main div{
+    padding: 30px;
+}
+
+main div h3{
+    color: hsl(0, 0%, 95%);
+    padding-top: 20px;
+}
+
+main div p{
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-top: 20px;
+    padding-bottom: 80px;
+}
+
+.sedans{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.suvs{
+    background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+}
+
+.sedans button{
+    width: 100px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    padding: 10px;
+}
+
+.suvs button{
+    width: 100px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    padding: 10px;
+}
+
+.luxury button{
+    width: 100px;
+    border-radius: 50px;
+    border-style: none;
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    padding: 10px;
+}
