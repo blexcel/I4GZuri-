@@ -1,0 +1,93 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+   background-color: hsl(0, 100%, 74%);
+   color: #fff;
+}
+
+.container{
+    display: flex;
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+    padding: 40px;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.left-flex{
+    width: 50%;
+    color: whitesmoke;
+    padding: 50px;
+}
+
+.left-flex p{
+    padding: 20px;
+}
+
+.left-flex h1{
+    padding: 15px;
+}
+
+.right-flex{
+    width: 50%;
+    padding: 50px;
+}
+
+.right-flex .form0{
+    padding: 20px;
+    margin: 10px;
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+}
+
+.right-flex .form1{
+    padding: 20px;
+    background-color: whitesmoke;
+    margin: 10px;
+    border-radius: 5px;
+    height: 40vh;
+}
+
+.right-flex .form1 input{
+    margin: 2px 2px 10px 2px;
+   /* margin-bottom: 10px;
+    margin-top: 2px;*/
+    padding:10px;
+    width: 100%;
+    align-items: center;
+    border-style: none;
+}
+
+.right-flex .form1 button{
+    background-color: hsl(154, 59%, 51%);
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.right-flex .form1 p{
+    font-size: 10px;
+    text-align: center;
+    color: black;
+}
+
+.right-flex .form1 a{
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+.right-flex .form1 a:hover{
+    color: blue;
+}
